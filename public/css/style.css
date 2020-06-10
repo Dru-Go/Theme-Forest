@@ -2247,6 +2247,10 @@ width: 100%;
   background-position: center;
 }
 
+.subscribe-service-section{
+  background-image: url(../images/background/subscribe-bg-2.png);
+}
+
 .subscribe-section .sec-title h1{
   color: #fff;
   margin-bottom: 50px;

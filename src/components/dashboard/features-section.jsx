@@ -1,5 +1,7 @@
 import React from "react";
 
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 export default function featureSection() {
   return (
     <section class="feature-section style-two centred">
