@@ -5,9 +5,10 @@ import Services from "./components/services/services";
 import About from "./components/about/about";
 import Teams from "./components/team/teams";
 import Faq from "./components/faq/faq";
+import Shop from "./components/shop/shop";
 
 function App() {
-  return <Faq />;
+  return <Shop />;
 }
 
 export default App;
