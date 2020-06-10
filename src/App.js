@@ -4,9 +4,10 @@ import Dashboard from "./components/dashboard/dashboard";
 import Services from "./components/services/services";
 import About from "./components/about/about";
 import Teams from "./components/team/teams";
+import Faq from "./components/faq/faq";
 
 function App() {
-  return <Teams />;
+  return <Faq />;
 }
 
 export default App;
