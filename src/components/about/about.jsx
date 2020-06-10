@@ -3,13 +3,16 @@ import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
 import PageTitle from "./page-title";
-import SubscribeSection from "./subscribe-secton";
-import FeatureServiceSection from "./feature-service-section";
-import TestamonialServiceSection from "./testamonial-service-section";
+import ServiceSection from "./service-style-four";
+import ChooseSection from "./chooseus-section";
+import FactCounter from "../dashboard/fact-counter";
+import TeamsSection from "./team-style-two";
+import TestamonialSection from "./testimonial-style-four";
+import SubscribeSection from "../dashboard/subscribe-style-two";
 import MainFooter from "../dashboard/main-footer";
 import ScrollToTop from "../dashboard/scroll-to-top";
 
-export default function services() {
+export default function about() {
   return (
     <div>
       {/* Preloader Section */}
@@ -34,13 +37,25 @@ export default function services() {
       <PageTitle />
       {/* <!--End Page Title--> */}
 
-      {/* <!-- feature-style-four --> */}
-      <FeatureServiceSection />
-      {/* <!-- feature-style-four --> */}
+      {/* <!-- service-style-four --> */}
+      <ServiceSection />
+      {/* <!-- service-style-four end --> */}
 
-      {/* <!-- testimonial-style-five --> */}
-      <TestamonialServiceSection />
-      {/* <!-- testimonial-style-four end --></div> */}
+      {/* <!-- chooseus-section --> */}
+      <ChooseSection />
+      {/* <!-- chooseus-section end --> */}
+
+      {/* <!-- fact-counter --> */}
+      <FactCounter />
+      {/* <!-- fact-counter end --> */}
+
+      {/* <!-- team-style-two --> */}
+      <TeamsSection />
+      {/* <!-- team-style-two end --> */}
+
+      {/* <!-- testimonial-style-four --> */}
+      <TestamonialSection />
+      {/* <!-- testimonial-style-four end --> */}
 
       {/* <!-- subscribe-style-two --> */}
       <SubscribeSection />

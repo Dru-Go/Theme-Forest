@@ -8,11 +8,11 @@ import ClientsSection from "./clients-section";
 import AboutSection from "./about-section";
 import FeatureSection from "./features-section";
 import PortfolioSection from "./portfolio-section";
-import TestimonialStyle from "./testimonial-style-two";
+import TestamonialSection from "./testimonial-style-two";
 import PricingStyle from "./pricing-style-two";
 import FactCounter from "./fact-counter";
 import NewsSection from "./news-section";
-import SubscribeStyle from "./subscribe-style-two";
+import SubscribeSection from "./subscribe-style-two";
 import MainFooter from "./main-footer";
 import ScrollToTop from "./scroll-to-top";
 
@@ -58,7 +58,7 @@ export default function dashboard() {
       {/* <!-- portfolio-section end --> */}
 
       {/* <!-- testimonial-style-two --> */}
-      <TestimonialStyle />
+      <TestamonialSection />
       {/* <!-- testimonial-style-two end --> */}
 
       {/* <!-- pricing-style-two --> */}
@@ -74,7 +74,7 @@ export default function dashboard() {
       {/* <!-- news-section --> */}
 
       {/* <!-- subscribe-style-two --> */}
-      <SubscribeStyle />
+      <SubscribeSection />
       {/* <!-- subscribe-style-two end --> */}
 
       {/* <!-- main-footer --> */}

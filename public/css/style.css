@@ -6502,6 +6502,10 @@ width: 100%;
   padding: 175px 0px 230px 0px;
 }
 
+.chooseus-section-img{
+  background-image: url(../images/background/chooseus-bg-2.jpg);
+}
+
 .chooseus-section .content-box .sec-title{
   margin-bottom: 63px;
 }
