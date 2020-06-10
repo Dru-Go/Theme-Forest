@@ -6,9 +6,10 @@ import About from "./components/about/about";
 import Teams from "./components/team/teams";
 import Faq from "./components/faq/faq";
 import Shop from "./components/shop/shop";
+import SingleShop from "./components/shop-singles/singles";
 
 function App() {
-  return <Shop />;
+  return <SingleShop />;
 }
 
 export default App;
