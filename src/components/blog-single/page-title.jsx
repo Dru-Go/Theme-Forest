@@ -5,7 +5,7 @@ export default function pageTitle() {
       <section class="page-title centred">
         <div class="container">
           <div class="content-box">
-            <h1>Blog Classic</h1>
+            <h1>Blog Single</h1>
             <ul class="bread-crumb clearfix">
               <li>
                 <a href="index.html">Home</a>
