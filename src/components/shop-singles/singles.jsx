@@ -3,7 +3,7 @@ import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
 import SubscribeSection from "../dashboard/subscribe-style-two";
-import PageTitle from "./page-title";
+import PageTitle from "../common/page-title";
 import SingleSection from "./singles-section";
 import MainFooter from "../dashboard/main-footer";
 import ScrollToTop from "../dashboard/scroll-to-top";
@@ -29,7 +29,7 @@ export default function singles() {
       {/* <!-- End Main Header --> */}
 
       {/* <!--Page Title--> */}
-      <PageTitle />
+      <PageTitle title={"Single Shop"} title2={"Single Shop"} />
       {/* <!--End Page Title--> */}
 
       {/* <!-- single-shop --> */}

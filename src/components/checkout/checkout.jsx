@@ -2,7 +2,7 @@ import React from "react";
 import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
-import PageTitle from "./page-title";
+import PageTitle from "../common/page-title";
 import CheckoutSection from "./checkout-section";
 import SubscribeSection from "../dashboard/subscribe-style-two";
 import MainFooter from "../dashboard/main-footer";
@@ -30,7 +30,7 @@ export default function checkout() {
       {/* <!-- End Main Header --> */}
 
       {/* <!--Page Title--> */}
-      <PageTitle />
+      <PageTitle title={"Checkout"} title2={"Checkout"} />
       {/* <!--End Page Title--> */}
 
       {/* <!-- checkout-section --> */}

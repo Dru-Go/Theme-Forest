@@ -18,7 +18,7 @@ import Portfolio from "./components/portfolio/portfolio";
 import PortfolioSingle from "./components/portfolio-single/single"; 
 
 function App() {
-  return <Dashboard />;
+  return <Teams />;
 }
 
 export default App;

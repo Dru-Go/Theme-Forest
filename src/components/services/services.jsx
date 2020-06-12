@@ -2,7 +2,7 @@ import React from "react";
 import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
-import PageTitle from "./page-title";
+import PageTitle from "../common/page-title";
 import SubscribeSection from "./subscribe-secton";
 import FeatureServiceSection from "./feature-service-section";
 import TestamonialServiceSection from "./testamonial-service-section";
@@ -31,7 +31,7 @@ export default function services() {
       {/* <!-- End Main Header --> */}
 
       {/* <!--Page Title--> */}
-      <PageTitle />
+      <PageTitle title={"Our Services"} title2={"Service type 02"} />
       {/* <!--End Page Title--> */}
 
       {/* <!-- feature-style-four --> */}

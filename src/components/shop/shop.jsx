@@ -3,7 +3,7 @@ import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
 import SubscribeSection from "../dashboard/subscribe-style-two";
-import PageTitle from "./page-title";
+import PageTitle from "../common/page-title";
 import ShopSection from "./shop-section";
 import MainFooter from "../dashboard/main-footer";
 import ScrollToTop from "../dashboard/scroll-to-top";
@@ -30,7 +30,7 @@ export default function shop() {
       {/* <!-- End Main Header --> */}
 
       {/* <!--Page Title--> */}
-      <PageTitle />
+      <PageTitle title={"Shop Page"} title2={"Shop Page"} />
       {/* <!--End Page Title--> */}
 
       {/* <!-- shop-section --> */}

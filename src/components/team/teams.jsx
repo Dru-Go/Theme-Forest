@@ -2,7 +2,7 @@ import React from 'react'
 import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
-import PageTitle from "./page-title";
+import PageTitle from "../common/page-title";
 import TeamSection from "./team-style-three";
 import SubscribeSection from "./subscribe-style-two";
 import MainFooter from "../dashboard/main-footer";
@@ -27,14 +27,14 @@ export default function teams() {
         {/* <!-- End Main Header --> */}
 
         {/* <!--Page Title--> */}
-        <PageTitle />
+        <PageTitle title={"Our Team"} title2={"Team type 02"} />
         {/* <!--End Page Title--> */}
 
         {/* <!-- team-style-three --> */}
         <TeamSection />
         {/* <!-- team-style-three end --> */}
 
-        {/* <!-- subscribe-style-two --> */}    
+        {/* <!-- subscribe-style-two --> */}
         <SubscribeSection />
         {/* <!-- subscribe-style-two end --> */}
 

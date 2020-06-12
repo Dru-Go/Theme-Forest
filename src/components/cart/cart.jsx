@@ -3,7 +3,7 @@ import React from "react";
 import SearchBox from "../dashboard/search-box";
 import MainHeader from "../dashboard/main-header";
 import StickyHeader from "../dashboard/sticky-header";
-import PageTitle from "./page-title";
+import PageTitle from "../common/page-title";
 import CartSection from "./cart-section";
 import SubscribeSection from "../dashboard/subscribe-style-two";
 import MainFooter from "../dashboard/main-footer";
@@ -31,7 +31,7 @@ export default function cart() {
       {/* <!-- End Main Header --> */}
 
       {/* <!--Page Title--> */}
-      <PageTitle />
+      <PageTitle title={"Cart Page"} title2={"Cart Page"} />
       {/* <!--End Page Title--> */}
 
       {/* <!-- cart section --> */}
