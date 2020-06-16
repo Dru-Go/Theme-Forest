@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 export default function mainHeader() {
@@ -95,37 +96,28 @@ export default function mainHeader() {
                         <a href="#">Pages</a>
                         <ul>
                           <li>
-                            <a href="about.html">About Type 01</a>
+                            <Link to="/about">About</Link>
                           </li>
                           <li>
-                            <a href="about-2.html">About Type 02</a>
+                            <Link to="/teams">Team</Link>
                           </li>
                           <li>
-                            <a href="team.html">Team Type 01</a>
+                            <Link to="/faq">Faq Page</Link>
                           </li>
                           <li>
-                            <a href="team-2.html">Team Type 02</a>
+                            <Link to="/shop">Shop Page</Link>
                           </li>
                           <li>
-                            <a href="team-3.html">Team Type 03</a>
+                            <Link to="/single">Single Shop</Link>
                           </li>
                           <li>
-                            <a href="faq.html">Faq Page</a>
+                            <Link to="/cart">Cart Page</Link>
                           </li>
                           <li>
-                            <a href="shop.html">Shop Page</a>
+                            <Link to="/checkout">Checkout Page</Link>
                           </li>
                           <li>
-                            <a href="single-shop.html">Single Shop</a>
-                          </li>
-                          <li>
-                            <a href="cart.html">Cart Page</a>
-                          </li>
-                          <li>
-                            <a href="checkout.html">Checkout Page</a>
-                          </li>
-                          <li>
-                            <a href="error.html">404 Page</a>
+                            <Link to="/404">404 Page</Link>
                           </li>
                         </ul>
                       </li>
@@ -181,16 +173,6 @@ export default function mainHeader() {
                     </ul>
                   </div>
                 </nav>
-              </div>
-              <div class="outer-box">
-                <div class="header-flyout-searchbar">
-                  <i class="fa fa-search"></i>
-                </div>
-                <div class="btn-box">
-                  <a href="#" class="btn-style-one">
-                    Purchase Now
-                  </a>
-                </div>
               </div>
             </div>
           </div>
