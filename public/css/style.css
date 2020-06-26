@@ -462,7 +462,7 @@ img{
   position:relative;
   left:0px;
   top:0px;
-  background: #ffffff;
+  background: #181818;
   z-index:999;
   width:100%;
   transition:all 500ms ease;
@@ -6991,7 +6991,7 @@ width: 100%;
 
 .main-header.style-three .main-menu .navigation > li > a,
 .main-header.style-three .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
-  color: #3b3b3b;
+  color: #ffffff;
 }
 
 .main-header.style-three .outer-container{

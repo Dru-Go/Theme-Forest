@@ -8,7 +8,7 @@ export default function stickyHeader() {
       <div class="container clearfix">
         <figure class="logo-box">
           <a href="index.html">
-            <img src="images/small-logo.png" alt="" />
+            <img src="images/Logo.png" class="logo" alt="" />
           </a>
         </figure>
         <div class="menu-area">
@@ -30,49 +30,6 @@ export default function stickyHeader() {
               <ul class="navigation clearfix">
                 <li class="current dropdown">
                   <a href="#">Home</a>
-                  <ul>
-                    <li>
-                      <a href="index.html">Home Page 01</a>
-                    </li>
-                    <li>
-                      <a href="index-2.html">Home Page 02</a>
-                    </li>
-                    <li>
-                      <a href="index-3.html">Home Page 03</a>
-                    </li>
-                    <li>
-                      <a href="index-4.html">Home Page 04</a>
-                    </li>
-                    <li>
-                      <a href="index-5.html">Home Page 05</a>
-                    </li>
-                    <li>
-                      <a href="index-6.html">Home Page 06</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Header Styles</a>
-                      <ul>
-                        <li>
-                          <a href="index.html">Header Style 01</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Header Style 02</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Header Style 03</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Header Style 04</a>
-                        </li>
-                        <li>
-                          <a href="index-5.html">Header Style 05</a>
-                        </li>
-                        <li>
-                          <a href="index-6.html">Header Style 06</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#">Services</a>
@@ -147,13 +104,13 @@ export default function stickyHeader() {
                   <a href="#">Blog</a>
                   <ul>
                     <li>
-                      <a href="blog-grid.html">Blog Grid</a>
+                      <Link to="/blogGrid">Blog Grid</Link>
                     </li>
                     <li>
-                      <a href="blog-classic.html">Blog Classic</a>
+                      <Link to="/blogClassic">Blog Classic</Link>
                     </li>
                     <li>
-                      <a href="blog-single.html">Blog Single</a>
+                      <Link to="/blogSingle">Blog Single</Link>
                     </li>
                   </ul>
                 </li>
