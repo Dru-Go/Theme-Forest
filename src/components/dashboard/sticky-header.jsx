@@ -8,7 +8,13 @@ export default function stickyHeader() {
       <div class="container clearfix">
         <figure class="logo-box">
           <a href="index.html">
-            <img src="images/Logo.png" class="logo" alt="" />
+            <img
+              src="images/Logo.png"
+              width="150"
+              height="50"
+              class="logo"
+              alt=""
+            />
           </a>
         </figure>
         <div class="menu-area">
@@ -33,17 +39,6 @@ export default function stickyHeader() {
                 </li>
                 <li class="dropdown">
                   <a href="#">Services</a>
-                  <ul>
-                    <li>
-                      <a href="service.html">Services Type 01</a>
-                    </li>
-                    <li>
-                      <a href="service-2.html">Services Type 02</a>
-                    </li>
-                    <li>
-                      <a href="service-3.html">Services Type 03</a>
-                    </li>
-                  </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#">Pages</a>

@@ -12,7 +12,13 @@ export default function mainFooter() {
                 <div class="footer-widget logo-widget">
                   <figure class="footer-logo">
                     <a href="index.html">
-                      <img src="images/footer-logo.png" alt="" />
+                      <img
+                        src="images/Logo.png"
+                        width="150"
+                        height="50"
+                        class="logo"
+                        alt=""
+                      />
                     </a>
                   </figure>
                   <div class="text">
@@ -22,7 +28,7 @@ export default function mainFooter() {
                   </div>
                   <div class="phone">
                     <i class="fa fa-phone"></i>
-                    <a href="tel:(251)235-3256">(251) 235-3256</a>
+                    <a href="tel:(251)996-850996">+251-996-850996</a>
                   </div>
                 </div>
               </div>
@@ -74,14 +80,12 @@ export default function mainFooter() {
                 <div class="footer-widget contact-widget">
                   <h3 class="widget-title">Contact Info</h3>
                   <ul class="info-box">
+                    <li>Alfoz Plaza 5th floor Gerji, Addis Ababa, Ethiopia</li>
                     <li>
-                      Flat 20, Reynolds Neck, North Hele naville, FV77 8WS
+                      <a href="tel:+2(305)587-3407">+251-996-850996</a>
                     </li>
                     <li>
-                      <a href="tel:+2(305)587-3407">+2(305) 587-3407</a>
-                    </li>
-                    <li>
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:sanedigital.net/#">sanedigital.net</a>
                     </li>
                   </ul>
                   <ul class="footer-social">
@@ -113,7 +117,7 @@ export default function mainFooter() {
           <div class="footer-bottom clearfix">
             <div class="left-content pull-left">
               <div class="copyright">
-                <a href="#">Rivox</a> &copy; 2019 All Right Reserved
+                <a href="#">SANE Digital</a> &copy; 2019 All Right Reserved
               </div>
             </div>
             <div class="right-content pull-right">

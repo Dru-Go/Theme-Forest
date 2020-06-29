@@ -275,7 +275,7 @@ img{
   font-size: 17px;
   font-family: 'Montserrat', sans-serif;
   padding: 15px 30px 14px 31px;
-  background: #fe721d;
+  background: #BE1E2D;
   line-height: 26px;
   color: #ffffff;
   font-weight: 600;
@@ -299,7 +299,7 @@ img{
   font-family: 'Montserrat', sans-serif;
   padding: 13px 29px 12px 29px;
   background: transparent;
-  border: 2px solid #fe721d;
+  border: 2px solid #BE1E2D;
   line-height: 26px;
   color: #101048;
   font-weight: 600;
@@ -336,8 +336,8 @@ img{
 }
 
 .btn-style-four:hover{
-  background: #fe721d;
-  border-color: #fe721d;
+  background: #BE1E2D;
+  border-color: #BE1E2D;
   color: #ffffff;
 }
 
@@ -476,7 +476,7 @@ img{
   position:fixed;
   opacity:0;
   visibility:hidden;
-  background: #ffffff;
+  background: #181818;
   left:0px;
   top:0px;
   border-bottom: 1px solid #e0e0e0;
@@ -629,7 +629,7 @@ img{
   z-index:100;
   display:none;
   background:#ffffff;
-  border-top: 3px solid #3b04db;
+  border-top: 3px solid #BE1E2D;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.10);
 }
 
@@ -676,8 +676,8 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:hover{
-  background: #3b04db;
-  border-bottom: 1px solid #3b04db;
+  background: #BE1E2D;
+  border-bottom: 1px solid #BE1E2D;
 }
 
 .main-menu .navigation > li > ul > li:hover a{
@@ -720,7 +720,7 @@ img{
   display:none;
   padding: 0px 0px;
   background-color: #ffffff;
-  border-top: 3px solid #3b04db;
+  border-top: 3px solid #BE1E2D;
   -webkit-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
   -ms-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
   -o-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
@@ -766,7 +766,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul > li:hover{
   color: #ffffff !important;
-  background:#3b04db;
+  background:#BE1E2D;
   padding-left: 25px;
 }
 
@@ -825,7 +825,7 @@ img{
 
 .sticky-header .main-menu .navigation > li.current > a,
 .sticky-header .main-menu .navigation > li:hover > a{
-  background: #3b04db;
+  background: #BE1E2D;
   color: #ffffff !important;
 }
 
@@ -1373,7 +1373,7 @@ width: 100%;
   position: relative;
   display: block;
   padding: 220px 0px 250px 0px;
-  background: #3b04db;
+  background: #BE1E2D;
   clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 90%, 0% 0%);
 }
 
@@ -2457,6 +2457,7 @@ width: 100%;
   position: relative;
   display: block;
   padding-top: 100px;
+  background-color: #181818;
 }
 
 .main-footer .widget-content{
@@ -2469,7 +2470,8 @@ width: 100%;
 .main-footer:before{
   position: absolute;
   content: '';
-  background: url(../images/icons/shap-7.png);
+  /* background: url(../images/icons/shap-7.png); */
+  background-color: #181818;
   width: 620px;
   height: 350px;
   top: 50px;
@@ -2524,7 +2526,7 @@ width: 100%;
   line-height: 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .main-footer .widget-title{
@@ -2567,7 +2569,7 @@ width: 100%;
 }
 
 .main-footer .link-widget .link-list li a:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .main-footer .service-widget{
@@ -2594,7 +2596,7 @@ width: 100%;
 }
 
 .main-footer .contact-widget .info-box li a:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .main-footer .contact-widget .info-box{
@@ -2627,8 +2629,8 @@ width: 100%;
 }
 
 .main-footer .contact-widget .footer-social li a:hover{
-  background: #fe721d;
-  border-color: #fe721d;
+  background: #BE1E2D;
+  border-color: #BE1E2D;
   color: #fff;
 }
 
@@ -2648,7 +2650,7 @@ width: 100%;
 .main-footer .footer-bottom .copyright a{
   position: relative;
   display: inline-block;
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .main-footer .footer-bottom .copyright a:hover{
@@ -2689,7 +2691,7 @@ width: 100%;
 }
 
 .main-footer .footer-bottom .right-content ul li a:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 
@@ -2967,7 +2969,7 @@ width: 100%;
   width: 100px;
   line-height: 100px;
   text-align: center;
-  background: #fe721d;
+  background: #BE1E2D;
   border-radius: 50%;
   transition: all 500ms ease;
   -webkit-animation: pulse 3s infinite;
@@ -3153,7 +3155,7 @@ width: 100%;
 
 .portfolio-section .top-content .tab-btns li.active-btn,
 .portfolio-section .top-content .tab-btns li:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .portfolio-section .top-content .tab-btn-box{
@@ -3224,7 +3226,7 @@ width: 100%;
 }
 
 .portfolio-block-one .inner-box .lower-content h3 a:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .portfolio-block-one .inner-box .lower-content span{
@@ -3411,7 +3413,7 @@ width: 100%;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
-  background: #fe721d;
+  background: #BE1E2D;
   width: 80px;
   height: 80px;
   right: -40px;
@@ -3556,7 +3558,7 @@ width: 100%;
 .pricing-style-two .pricing-table:before{
   position: absolute;
   content: '';
-  background: #3b04db;
+  background: #BE1E2D;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -3745,7 +3747,7 @@ width: 100%;
   line-height: 65px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #fe721d;
+  color: #BE1E2D;
   margin-bottom: 8px;
 }
 
@@ -3831,7 +3833,7 @@ width: 100%;
 }
 
 .news-block-one .lower-content h3 a:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .news-block-one .lower-content .text{
@@ -5274,7 +5276,7 @@ width: 100%;
 }
 
 .service-block-three h4 a:hover{
-  color: #fe721d;
+  color: #BE1E2D;
 }
 
 .service-block-three .text{
@@ -5296,7 +5298,7 @@ width: 100%;
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot span:hover{
-  background: #fe721d;
+  background: #BE1E2D;
   border: none;
 }
 
@@ -6338,7 +6340,7 @@ width: 100%;
 
 .service-block-four:hover .icon-box{
   transform: rotateY(180deg);
-  background: #3b04db !important;
+  background: #BE1E2D !important;
   color: #fff !important;
 }
 
@@ -6541,7 +6543,7 @@ width: 100%;
 }
 
 .chooseus-section .content-box .inner-box .single-item:hover .icon-box{
-  background: #3b04db !important;
+  background: #BE1E2D !important;
   color: #fff !important;
 }
 
@@ -7346,7 +7348,7 @@ width: 100%;
 }
 
 .team-block-one .overlay .box .link-icon a:hover{
-  background: #3b04db;
+  background: #BE1E2D;
 }
 
 .team-block-one{

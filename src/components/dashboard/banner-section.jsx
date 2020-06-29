@@ -21,16 +21,16 @@ export default function bannerSection() {
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12 content-column">
             <div class="content-box">
-              <h1>We Are Digital Service Provider</h1>
+              <h1>ሴን ዲጂታል</h1>
               <div class="text">
-                Dolor sit amet consectetur elit sed do eiusmod tempor incididunt
-                labore et dolore magna.
+               
+We turn your vision into a reality.
               </div>
-              <div class="btn-box">
+              {/* <div class="btn-box">
                 <a href="#" class="btn-style-two">
                   Purchase Now
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 image-column">
@@ -45,3 +45,5 @@ export default function bannerSection() {
     </section>
   );
 }
+
+

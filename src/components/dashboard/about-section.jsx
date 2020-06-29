@@ -42,24 +42,32 @@ export default function aboutSection() {
           <div class="col-lg-5 col-md-12 col-sm-12 content-column">
             <div class="content-box">
               <div class="sec-title">
-                <h4>About Rivox</h4>
-                <h1>Rivox tells you a lot about your website.</h1>
+                <h3>About SANE Digital</h3>
               </div>
               <div class="text">
-                Dolor sit amet consectetur elit sed do eiusmod tempor incid
-                idunt labore dolore magna aliqua enim ad minim veniam quis
-                nostrud exercitation ullamco.
+                SANE Digital provides IT solutions by leveraging its proven
+                technical knowledge and utilizing its human capital for the
+                benefit of its customers.
               </div>
               <ul class="list">
-                <li>Various Analysis Options</li>
-                <li>Page Load Details (time, size, number of requests)</li>
-                <li>Waterfall, Video and Report History</li>
+                <li>
+                  Partner with customers to understand the information
+                  technology needs of their stakeholders
+                </li>
+                <li>
+                  Provide leadership and planning for the effective use of
+                  technologies to add value to their AS-IS and TO-BE process
+                </li>
+                <li>
+                  Work diligently to improve and support our customers technical
+                  and operational areas
+                </li>
               </ul>
-              <div class="btn-box">
+              {/* <div class="btn-box">
                 <a href="#" class="btn-style-two">
                   Purchase Now
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

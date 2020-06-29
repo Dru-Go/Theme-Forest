@@ -45,17 +45,6 @@ export default function mainHeader() {
                       </li>
                       <li class="dropdown">
                         <a href="#">Services</a>
-                        <ul>
-                          <li>
-                            <a href="service.html">Services Type 01</a>
-                          </li>
-                          <li>
-                            <a href="service-2.html">Services Type 02</a>
-                          </li>
-                          <li>
-                            <a href="service-3.html">Services Type 03</a>
-                          </li>
-                        </ul>
                       </li>
                       <li class="dropdown">
                         <a href="#">Pages</a>
